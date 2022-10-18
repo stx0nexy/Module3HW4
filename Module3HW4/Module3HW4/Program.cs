@@ -6,7 +6,10 @@ namespace Module3HW4
     {
         public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            var myDelegate = new Delegate();
+            myDelegate.Subscribe();
+            myDelegate.CountSum();
+            Console.WriteLine(myDelegate.FinallSum);
         }
     }
 }
